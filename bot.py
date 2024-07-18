@@ -6,8 +6,6 @@ logging.basicConfig(
 logging.getLogger().setLevel(logging.INFO)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
-import uvloop
-uvloop.install()
 from config import Config
 from pyrogram import Client 
 
